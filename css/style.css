@@ -1,0 +1,20 @@
+/* - - - RESET - - - */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+/* - - - GENERAL STYLES - - - */
+body {font-family: 'Oxygen', Helvetica, sans-serif; font-size: 10px; background: #555;}
+
+/* - - - MASTER STYLES - - - */
+.global {font-size: 1.6em; padding: 10px 1%;width: 98%; border-bottom: 2px solid #999; background: #152116; background: #000;}
+.global a {padding: 10px; display: inline-block; text-decoration:none; font-weight: 400; color: #fff; border-right: 1px solid #999;}
+.global a:last-child {border: none;}
+.global a:hover {color: orange;}
+.global a.main {float: right; font-family: 'Oxygen', Arial, sans-serif; font-size: 1.8em; margin: 0px 10px; font-weight: 700; border: none; padding: 0;}
+.global a.main:hover {color: #fff;}
+
+/* - - - CONTENT STYLES - - - */
+.mainContent {min-height: 200px; background: #ccc;}
+.introPage {font-size: 8em; padding: 20px 10%; font-weight: 700; color: #fff;}
+.galleryLinks {margin-top: 20px;}
+.galleryLinks div {display: inline-block; vertical-align: top; width: 20%; margin:5px 2.5%; height: 100px; background: #333; overflow: hidden;}
+
+/* - - - RESUME STYLES - - - */
