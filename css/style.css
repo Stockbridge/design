@@ -1,5 +1,5 @@
 
-/* line 108 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
+/* line 91 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
 
 /* line 1 : /usr/local/lib/node_modules/stylus/lib/functions/index.styl */
 
@@ -7,43 +7,43 @@
 
 /* line 2 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;margin:0;padding:0}
-/* line 8 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
+/* line 7 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
-/* line 12 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
+/* line 10 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
 body{line-height:1}
-/* line 16 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
+/* line 13 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
 ol,ul{list-style:none}
-/* line 20 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
+/* line 16 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
 blockquote,q{quotes:none}
-/* line 24 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
+/* line 19 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
 blockquote:before,blockquote:after,q:before,q:after{content:none}
-/* line 28 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
+/* line 22 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
 table{border-collapse:collapse;border-spacing:0}
+/* line 27 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
+
+/* line 32 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
+
 /* line 33 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
-
-/* line 34 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
 body{font-family:'Oxygen',Helvetica,sans-serif;font-size:10px;background:#555}
-/* line 40 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
+/* line 38 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
+nav,section{padding:.7rem;max-width:1024px;margin:0 auto}
+/* line 44 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
 
-/* line 41 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
-header nav{font-size:1.6em;padding:10px 1%;width:98%;border-bottom:2px solid #999;background:#152116;background:#000}
+/* line 45 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
+header{background:#152116;border-bottom:2px solid #999;font-size:1.6em}
 /* line 50 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
-header nav a{padding:10px;display:inline-block;text-decoration:none;font-weight:400;color:#fff;border-right:1px solid #999;cursor:pointer;}
+nav a{padding:.5rem 1rem;display:inline-block;text-decoration:none;font-weight:400;color:#fff;border-right:1px solid #999;cursor:pointer;}
 /* line 59 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
-header nav a:last-child{border:none}
+nav a:last-child{border:none}
 /* line 63 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
-header nav a:hover{color:#ffa500}
+nav a:hover{color:#ffa500}
 /* line 68 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
-header nav a.main{float:right;font-family:'Oxygen',Arial,sans-serif;font-size:1.8em;margin:0 10px;font-weight:700;border:none;padding:0;}
+header .logo{float:right;font-family:'Oxygen',Arial,sans-serif;font-size:1.8em;margin:0 10px;font-weight:700;border:none;padding:0;}
 /* line 77 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
-header nav a.main:hover{color:#fff}
-/* line 83 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
+header .logo:hover{color:#fff}
+/* line 82 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
 
-/* line 84 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
-.mainContent{min-height:200px;background:#ccc}
-/* line 89 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
-.introPage{font-size:8em;padding:20px 10%;font-weight:700;color:#fff}
-/* line 96 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
-.galleryLinks{margin-top:20px}
-/* line 100 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
-.galleryLinks div{display:inline-block;vertical-align:top;width:20%;margin:5px 2.5%;height:100px;background:#333;overflow:hidden}
+/* line 83 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
+section{background:#fff;padding:2rem}
+/* line 88 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
+.splash{padding:6rem 2rem}
