@@ -1,5 +1,5 @@
 
-/* line 91 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
+/* line 124 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
 
 /* line 1 : /usr/local/lib/node_modules/stylus/lib/functions/index.styl */
 
@@ -21,29 +21,41 @@ blockquote:before,blockquote:after,q:before,q:after{content:none}
 table{border-collapse:collapse;border-spacing:0}
 /* line 27 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
 
-/* line 32 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
-
-/* line 33 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
-body{font-family:'Oxygen',Helvetica,sans-serif;font-size:10px;background:#555}
 /* line 38 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
-nav,section{padding:.7rem;max-width:1024px;margin:0 auto}
-/* line 44 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
 
+/* line 39 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
+body{font-family:'Oxygen',Helvetica,sans-serif;font-size:10px;background:#efefef;color:#0c161c}
 /* line 45 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
-header{background:#152116;border-bottom:2px solid #999;font-size:1.6em}
-/* line 50 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
-nav a{padding:.5rem 1rem;display:inline-block;text-decoration:none;font-weight:400;color:#fff;border-right:1px solid #999;cursor:pointer;}
-/* line 59 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
-nav a:last-child{border:none}
-/* line 63 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
-nav a:hover{color:#ffa500}
-/* line 68 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
-header .logo{float:right;font-family:'Oxygen',Arial,sans-serif;font-size:1.8em;margin:0 10px;font-weight:700;border:none;padding:0;}
-/* line 77 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
-header .logo:hover{color:#fff}
-/* line 82 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
+nav,section div{padding:.7rem 0;max-width:1024px;margin:0 auto;box-sizing:border-box}
+/* line 51 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
+a{color:#bdd4de;}
+/* line 53 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
+a:hover{color:#3f5765}
+/* line 58 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
 
-/* line 83 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
-section{background:#fff;padding:2rem}
-/* line 88 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
-.splash{padding:6rem 2rem}
+/* line 59 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
+header{background:#2b3a42;border-bottom:2px solid #0c161c;font-size:1.6em}
+/* line 64 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
+nav a{padding:.5rem 1rem;display:inline-block;text-decoration:none;font-weight:400;color:#fff;border-right:1px solid #efefef;cursor:pointer;}
+/* line 73 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
+nav a:last-child{border:none}
+/* line 77 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
+nav a:hover{color:#e74c3c}
+/* line 82 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
+header .logo{float:right;font-family:'Oxygen',Arial,sans-serif;font-size:1.8em;margin:0 10px;font-weight:700;border:none;padding:0;}
+/* line 91 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
+header .logo:hover{color:#fff}
+/* line 96 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
+
+/* line 97 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
+section{background:#fff;font-size:2rem}
+/* line 101 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
+section div{padding:3rem 1rem}
+/* line 106 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
+
+/* line 107 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
+.splash{padding:3rem 0 2rem;background:#bdd4de;font-weight:bold;text-align:right;}
+/* line 113 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
+.splash .hello{font-size:3rem;margin-bottom:5rem}
+/* line 118 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
+.splash .small-links a{text-decoration:none;font-size:1.3rem;margin-left:2rem}

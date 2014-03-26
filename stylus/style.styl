@@ -25,26 +25,40 @@ table {
 }
 
 /* - - - VARIABLES - - - */ 
-primary = #152116;
-secondary = #999;
-tertiary = orange;
+primary = #2B3A42;
+secondary = #EFEFEF;
+tertiary = #E74C3C;
+
+linkColor = #BDD4DE;
+linkHover = #3F5765;
+
+black = #0C161C;
+
 
 /* - - - GENERAL STYLES - - - */
 body {
   font-family: 'Oxygen', Helvetica, sans-serif;
   font-size: 10px;
-  background: #555;
+  background: secondary;
+  color: black;
 }
-nav, section {
-  padding: .7rem;
+nav, section div {
+  padding: .7rem 0;
   max-width: 1024px;
   margin: 0 auto;
+  box-sizing: border-box;
+}
+a {
+  color: linkColor;
+  &:hover {
+    color: linkHover;
+  }
 }
 
 /* - - - HEADER STYLES - - - */
 header {
   background: primary;
-  border-bottom: 2px solid secondary;
+  border-bottom: 2px solid #0C161C;
   font-size: 1.6em;
 }
 nav a {
@@ -82,11 +96,30 @@ header .logo {
 /* - - - SECTION STYLES - - - */
 section {
   background: white;
-  padding: 2rem;
+  font-size: 2rem;
+}
+section div {
+  padding: 3rem 1rem;
 }
 
+
+/* - - - SPLASH SECTION - - - */
 .splash {
-  padding: 6rem 2rem;
+  padding: 3rem 0rem 2rem;
+  background: #BDD4DE;
+  font-weight: bold;
+  text-align: right;
+  
+  .hello {
+    font-size: 3rem;
+    margin-bottom: 5rem;
+  }
+
+  .small-links a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    margin-left: 2rem;
+  }
 }
 
 
