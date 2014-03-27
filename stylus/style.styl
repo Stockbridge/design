@@ -48,6 +48,14 @@ nav, section div {
   margin: 0 auto;
   box-sizing: border-box;
 }
+h1 {
+  font-size: 1.7rem;
+  margin-bottom: 2rem;
+}
+h2 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
 a {
   color: linkColor;
   &:hover {
@@ -58,7 +66,7 @@ a {
 /* - - - HEADER STYLES - - - */
 header {
   background: primary;
-  border-bottom: 2px solid #0C161C;
+  border-bottom: 2px solid linkColor;
   font-size: 1.6em;
 }
 nav a {
@@ -93,22 +101,30 @@ header .logo {
   }
 }
 
+
 /* - - - SECTION STYLES - - - */
 section {
   background: white;
   font-size: 2rem;
+  padding: 2rem 1rem 0;
 }
-section div {
-  padding: 3rem 1rem;
+section > div {
+  padding: 3rem 1.5rem;
+}
+section p {
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  line-height: normal;
 }
 
 
 /* - - - SPLASH SECTION - - - */
 .splash {
   padding: 3rem 0rem 2rem;
-  background: #BDD4DE;
+  background: primary;
   font-weight: bold;
   text-align: right;
+  color: secondary;
   
   .hello {
     font-size: 3rem;
@@ -121,6 +137,42 @@ section div {
     margin-left: 2rem;
   }
 }
+
+
+/* - - - ABOUT SECTION - - - */
+.about {
+  background: primary;
+  color: secondary;
+}
+.resume {
+  padding: 0;
+}
+.resume div {
+  padding: 1rem;
+}
+.big-links {
+  text-align: center;
+}
+.big-links a {
+  border: 1px solid linkColor;
+  display: inline-block;
+  width: 48%;
+  padding: 2rem 0;
+  text-decoration: none;
+  &:hover {
+    border-color: linkHover;
+    background: secondary;
+  }
+  &:first-of-type {
+    margin-right: 2%;
+  }
+}
+
+
+
+
+
+
 
 
 
