@@ -1,5 +1,5 @@
 
-/* line 340 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
+/* line 327 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
 
 /* line 1 : /usr/local/lib/node_modules/stylus/lib/functions/index.styl */
 
@@ -139,7 +139,3 @@ footer a{text-decoration:none}
 footer .links{float:left;}
 /* line 324 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
 footer .links a{margin-right:1rem}
-/* line 329 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
-
-/* line 330 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
-.old-ie{display:fixed;height:100%;width:100%;top:0;left:0;font-size:25px;color:#efefef;background:#e74c3c}
