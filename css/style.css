@@ -1,5 +1,5 @@
 
-/* line 327 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
+/* line 333 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
 
 /* line 1 : /usr/local/lib/node_modules/stylus/lib/functions/index.styl */
 
@@ -80,7 +80,7 @@ section p{margin-bottom:2rem;line-height:normal}
 /* line 178 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
 
 /* line 179 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
-.small-links{background:rgba(43,58,66,0.7);border-top:1px solid #555;border-bottom:1px solid #0c161c;text-align:right;font-size:2rem;height:2em;margin-top:-2em}
+.small-links{background:rgba(43,58,66,0.7);border-top:1px solid #555;border-bottom:1px solid #0c161c;text-align:right;font-size:1.7rem;height:2em;margin-top:-2em}
 /* line 188 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
 .small-links > div{padding:.5em 2rem}
 /* line 191 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
@@ -124,18 +124,20 @@ section p{margin-bottom:2rem;line-height:normal}
 /* line 287 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
 
 /* line 288 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
-.development i,.user-experience i{color:#e74c3c;border:1px solid #e74c3c;width:5rem;padding:1.2rem 0;text-align:center;position:absolute;font-size:2.5rem}
-/* line 299 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
+.development i,.user-experience i{color:#e74c3c;border:1px solid #e74c3c;width:5rem;padding:1.2rem 0;text-align:center;position:absolute;font-size:2.5rem;font-style:normal}
+/* line 300 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
+.development .fa-javascript,.user-experience .fa-javascript{font-weight:bold}
+/* line 305 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
 .development p,.user-experience p,.development h2,.user-experience h2{margin-left:8rem}
-/* line 302 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
-.development p,.user-experience p{margin-bottom:4rem}
 /* line 308 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
+.development p,.user-experience p{margin-bottom:4rem}
+/* line 314 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
 
-/* line 309 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
+/* line 315 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
 footer{background:#2b3a42;color:#efefef;text-align:right;font-size:1.8rem;padding:0 1rem;}
-/* line 316 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
+/* line 322 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
 footer a{text-decoration:none}
-/* line 321 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
+/* line 327 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
 footer .links{float:left;}
-/* line 324 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
+/* line 330 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
 footer .links a{margin-right:1rem}
