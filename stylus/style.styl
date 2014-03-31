@@ -133,8 +133,7 @@ section p {
 /* - - - SPLASH SECTION - - - */
 .splash {
   padding: 10rem 0 5rem;
-  margin-top: 1rem;
-  background: dark;
+  margin-top: 2rem;
   font-weight: 300;
   text-align: center;
   background: accent1;
@@ -142,10 +141,16 @@ section p {
   
   @media mediumUp {
     text-align: right;
-    background: url('../img/header_bg.jpg');
+    background: url('../img/header_bg_large.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center top;
+  }
+  @media mediumDown {
+    background: url('../img/header_bg_small.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right top;
   }
   
   & > div {
