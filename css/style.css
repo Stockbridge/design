@@ -94,7 +94,7 @@ section p{margin-bottom:2rem;line-height:normal}
 /* line 211 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
 .big-links{text-align:center}
 /* line 214 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
-.big-links a{font-size:3rem;border:1px solid #bdd4de;box-sizing:border-box;display:inline-block;width:48.5%;padding:2rem 0;text-decoration:none;}
+.big-links a{font-size:3rem;border:1px solid #bdd4de;box-sizing:border-box;display:inline-block;width:49%;padding:2rem 0;text-decoration:none;}
 /* line 222 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
 .big-links a:hover{border-color:#e74c3c;background:#bdd4de}@media all and (max-width: 700px){
 /* line 227 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
