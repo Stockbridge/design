@@ -1,9 +1,9 @@
 
-/* line 270 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
+/* line 272 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
 
 /* line 1 : /usr/local/lib/node_modules/stylus/lib/functions/index.styl */
 
-/* line 293 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
+/* line 272 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
 
 /* line 2 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;margin:0;padding:0}
@@ -107,11 +107,13 @@ section p{margin-bottom:2rem;font-size:1.3rem;line-height:normal}
 .development p,.user-experience p,.development h2,.user-experience h2{margin-left:6rem}
 /* line 247 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
 .development p,.user-experience p{margin-bottom:3rem}
-/* line 252 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
-footer{background:#2b3a42;color:#efefef;text-align:right;font-size:1.4rem;}
-/* line 258 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
+/* line 253 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
+
+/* line 254 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
+footer{background:#2b3a42;color:#efefef;text-align:right;font-size:1.4rem;padding:0 1rem;}
+/* line 261 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
 footer a{text-decoration:none}
-/* line 263 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
-footer .links{float:left;}
 /* line 266 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
+footer .links{float:left;}
+/* line 269 : /Users/stocky/Clients/Stocky/design/stylus/style.styl */
 footer .links a{margin-right:1rem}
