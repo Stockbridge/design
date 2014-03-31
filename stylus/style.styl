@@ -30,7 +30,7 @@ secondary = #EFEFEF;
 tertiary = #E74C3C;
 
 linkColor = #BDD4DE;
-linkHover = #3F5765;
+linkHover = tertiary;
 
 black = #0C161C;
 
@@ -42,7 +42,7 @@ body {
   background: secondary;
   color: black;
 }
-nav, section div {
+nav, section > div, footer > div {
   padding: .7rem 0;
   max-width: 1024px;
   margin: 0 auto;
@@ -51,10 +51,11 @@ nav, section div {
 h1 {
   font-size: 1.7rem;
   margin-bottom: 2rem;
+  color: tertiary;
 }
 h2 {
   font-size: 1.2rem;
-  margin-bottom: 1rem;
+  margin-bottom: .5rem;
 }
 a {
   color: linkColor;
@@ -68,6 +69,11 @@ header {
   background: primary;
   border-bottom: 2px solid linkColor;
   font-size: 1.6em;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 1;
 }
 nav a {
   padding: .5rem 1rem;
@@ -106,49 +112,81 @@ header .logo {
 section {
   background: white;
   font-size: 2rem;
-  padding: 2rem 1rem 0;
+  padding: 0 1rem;
 }
 section > div {
-  padding: 3rem 1.5rem;
+  padding: 6rem 1.5rem 2.5rem;
+  position: relative;
 }
 section p {
   margin-bottom: 2rem;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   line-height: normal;
 }
 
-
 /* - - - SPLASH SECTION - - - */
 .splash {
-  padding: 3rem 0rem 2rem;
+  padding: 8rem 0 3rem;
+  margin-top: 1rem;
   background: primary;
-  font-weight: bold;
+  font-weight: 300;
   text-align: right;
   color: secondary;
+  background: url('../img/header_bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
   
+  & > div {
+    padding: 2rem;
+  }
+
+  p {
+    padding-left: 10rem;
+    font-size: 1.6rem;
+  }
+
   .hello {
     font-size: 3rem;
-    margin-bottom: 5rem;
-  }
-
-  .small-links a {
-    text-decoration: none;
-    font-size: 1.3rem;
-    margin-left: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 900;
+    padding: 0;
   }
 }
 
+/* - - - LINKS SECTION - - - */
+.small-links {
+  background: rgba(primary, .7);
+  border-top: 1px solid #555;
+  border-bottom: 1px solid black;
+  padding-bottom: .7rem;
+  text-align: right;
+  margin-top: -3rem;
+}
+.small-links > div {
+  padding: 0 2rem;
+}
+.small-links a {
+  text-decoration: none;
+  font-size: 1.3rem;
+  margin-left: 2rem;
+}
 
-/* - - - ABOUT SECTION - - - */
+
+/* - - - CONTENT SECTIONS - - - */
 .about {
-  background: primary;
-  color: secondary;
+  background: linkColor;
+  color: black;
 }
-.resume {
-  padding: 0;
+.about > div {
+  padding-top: 4.5rem;
 }
-.resume div {
-  padding: 1rem;
+.development {
+  background: secondary;
+}
+.resume > div {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 .big-links {
   text-align: center;
@@ -161,14 +199,74 @@ section p {
   text-decoration: none;
   &:hover {
     border-color: linkHover;
-    background: secondary;
+    background: linkColor;
   }
   &:first-of-type {
-    margin-right: 2%;
+    margin-right: 2.5%;
   }
 }
 
+// SECTION ARROWS
+.development, .user-experience {
+  & > div:after {
+    top: 0%;
+    left: 3.5rem;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(white, 0);
+    border-top-color: white;
+    border-width: 30px;
+    margin-left: -30px;
+  }
+}
 
+// UI/UX OVERRIDE
+.user-experience > div:after {
+  border-top-color: linkColor;
+}
+
+// SECTION ICONS
+.development, .user-experience {
+  i {
+    color: tertiary;
+    border: 1px solid tertiary;
+    width: 4rem;
+    padding: 1rem 0;
+    text-align: center;
+    position: absolute;
+  }
+
+// SECTION CONTENT
+  p, h2 {
+    margin-left: 6rem;
+  }
+  p {
+    margin-bottom: 3rem; 
+  }
+}
+
+footer {
+  background: primary;
+  color: secondary;
+  text-align: right;
+  font-size: 1.4rem;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+footer .links {
+  float: left;
+  
+  a {
+    margin-right: 1rem;
+  }
+}
 
 
 
