@@ -130,23 +130,22 @@ section p
   margin-top: 2rem
   font-weight: 300
   text-align: center
-  background: $accent1
+  background: $dark
   color: $light
   background-size: cover
   background-repeat: no-repeat
+  background-image: url('../img/background@1x.png')
+  background-position: center
 
   @media mediumUp
     text-align: right
-    background: url('../img/background@1x.png')
-    background-position: center
-
-  @media mediumDown
-    background: url('../img/background@1x.png')
-    background-position: center
+    background-repeat-x: initial
+    background-size: initial
 
   @media small
-    background: url('../img/background.png')
+    background-image: url('../img/background.png')
     background-position: center
+    background-repeat: no-repeat
 
   & > div
     padding: 3rem
