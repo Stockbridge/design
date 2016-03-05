@@ -228,7 +228,7 @@ section p
 
 
 /* - - - CONTENT SECTIONS - - - */
-.about, .user-experience
+.about, .ux-development
   background: $light
 
 .about > div
@@ -241,7 +241,7 @@ section p
 
 
 // SECTION ARROWS
-.development, .user-experience
+.fed-development, .ux-development, .user-experience
   & > div:after
     top: 0%
     left: 4.5rem
@@ -258,12 +258,13 @@ section p
 
 
 // DEVELOPMENT OVERRIDE
-.development > div:after
-  border-top-color: $light
+.fed-development, .user-experience
+  > div:after
+    border-top-color: $light
 
 
 // SECTION ICONS
-.development, .user-experience
+.fed-development, .ux-development, .user-experience
   i
     color: $accent1
     border: 1px solid $accent1
